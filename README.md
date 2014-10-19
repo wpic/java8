@@ -4,7 +4,7 @@ Oracle JAVA8 (JRE+JDK) image for docker
 
 Download, CD to the folder:
 
-    $ sudo docker build --tag .
+    $ sudo docker build --tag wpic/java8 .
 
 or pull it from server:
 
