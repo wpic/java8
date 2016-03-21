@@ -10,3 +10,5 @@ RUN ln -s /usr/lib/jvm/jdk1.8.0_25/ /usr/lib/jvm/jdk1.8
 ENV JAVA_HOME /usr/lib/jvm/jdk1.8
 ENV JDK_HOME $JAVA_HOME
 ENV PATH $JAVA_HOME/bin:$PATH
+
+RUN rm -fR /var/lib/apt/lists/*
